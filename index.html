@@ -3,194 +3,260 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0a0a">
 <title>Solisgears Philippines – Uncompromising audio gears.</title>
-<meta name="description" content="Precision hardware for peak performance. High-fidelity IEMs and headphones from Solisgears Philippines.">
-<meta property="og:title" content="Solisgears Philippines">
-<meta property="og:description" content="Uncompromising audio gears.">
+<meta name="description" content="Precision hardware for peak performance. IEMs and headphones from Solisgears Philippines.">
 <link rel="icon" href="https://solisgears.wordpress.com/wp-content/uploads/2026/09/gemini_generated_image_kiq1drkiq1drkiq1-removebg-preview.png?w=64">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#fff;--ink:#0a0a0a;--mid:#6b6b6b;--line:#dcdcdc;--tile:#efefef;--max:1120px}
+:root{--bg:#0a0a0a;--sf:#111;--sf2:#171717;--ln:#242424;--tx:#f4f4f4;--mid:#8d8d8d;--tile:#e8e8e8;--r:18px;--red:#e5202e;--red2:#bf1420}
 *{box-sizing:border-box;margin:0}
-html{scroll-behavior:smooth;scroll-padding-top:4.5rem}
-body{background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 "Inter Tight",system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
-a{color:inherit}
-:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
-.bar{position:sticky;top:0;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:1rem max(1.25rem,calc((100% - var(--max))/2));background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-.brand{font-weight:700;letter-spacing:-.02em;text-decoration:none}
-.bar nav{display:flex;gap:1.5rem}
-.bar nav a,footer nav a{text-decoration:none;color:var(--mid)}
-.bar nav a:hover,footer nav a:hover{color:var(--ink)}
-main,footer{max-width:var(--max);margin:0 auto;padding:0 1.25rem}
-.hero{padding:8rem 0 6rem}
-.hero h1{font-size:clamp(2.75rem,9vw,7.5rem);line-height:.95;letter-spacing:-.045em;font-weight:600}
-.hero p{margin-top:2rem;max-width:34ch;color:var(--mid);font-size:1.25rem}
-.group{font-size:1rem;font-weight:600;padding:1rem 0;border-top:2px solid var(--ink);margin-top:3rem}
-.product{display:grid;grid-template-columns:1.1fr 1fr;gap:3rem;padding:2.5rem 0;border-top:1px solid var(--line)}
-.group+.product{border-top:0}
-.stage{aspect-ratio:1;background:var(--tile);display:grid;place-items:center;padding:2rem}
-.stage img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
-.thumbs{display:flex;gap:.5rem;margin-top:.5rem}
-.thumbs button{width:4.5rem;aspect-ratio:1;padding:.4rem;background:var(--tile);border:1px solid transparent;cursor:pointer;opacity:.55}
-.thumbs button.on,.thumbs button:hover{opacity:1;border-color:var(--ink)}
-.thumbs img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply;display:block}
-.info{align-self:center;max-width:46ch}
-.info h3{font-size:clamp(1.75rem,3.5vw,2.5rem);line-height:1.1;letter-spacing:-.03em;font-weight:600}
-.spec{margin:.75rem 0 1.25rem;color:var(--mid)}
-.btn{display:inline-block;margin-top:1.75rem;padding:.8rem 1.6rem;background:var(--ink);color:#fff;text-decoration:none;font-weight:500;border:1px solid var(--ink);transition:background .15s,color .15s}
-.btn:hover{background:#fff;color:var(--ink)}
-.text{padding:5rem 0;border-top:2px solid var(--ink);margin-top:4rem;display:grid;grid-template-columns:1fr 2fr;gap:1rem 3rem;align-items:start}
-.text h2{font-size:1rem;font-weight:600;grid-row:span 4}
-.text>*:not(h2){grid-column:2;max-width:62ch}
-.text p+p{margin-top:.5rem}
-.lead{font-size:1.5rem;line-height:1.3;letter-spacing:-.02em;font-weight:500}
-details{border-bottom:1px solid var(--line);padding:1rem 0}
-details:first-of-type{border-top:1px solid var(--line)}
+html{scroll-behavior:smooth;scroll-padding-top:5rem}
+body{background:radial-gradient(900px 520px at 8% -4%,rgba(229,32,46,.17),transparent) no-repeat,var(--bg);color:var(--tx);font:400 1rem/1.6 Geist,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--red);outline-offset:3px}
+.w{max-width:1100px;margin:0 auto;padding:0 1.25rem}
+header{position:sticky;top:0;z-index:20;background:rgba(10,10,10,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--ln)}
+header .w{display:flex;align-items:center;justify-content:space-between;height:3.75rem}
+.logo{font-weight:700;font-size:1.25rem;letter-spacing:-.03em}
+.rd{color:var(--red)}
+nav{display:flex;gap:1.5rem;color:var(--mid)}nav a:hover{color:#fff}
+#mb{display:none;background:none;border:1px solid var(--ln);border-radius:999px;padding:.3rem .9rem;cursor:pointer}
+.hero{padding:7rem 0 5rem}
+.wm{font-size:clamp(1.75rem,5vw,2.5rem);font-weight:700;letter-spacing:-.04em;margin-bottom:1.25rem}
+h1{font-size:clamp(2.6rem,8vw,5.5rem);line-height:1;letter-spacing:-.045em;font-weight:600}
+.hero p{margin:1.25rem 0 2rem;color:var(--mid);font-size:1.2rem;max-width:36ch}
+.btn{display:inline-flex;align-items:center;gap:.4rem;padding:.7rem 1.3rem;border-radius:999px;border:1px solid var(--ln);background:var(--sf2);cursor:pointer;font-weight:500;transition:background .15s,border-color .15s}
+.btn:hover{border-color:var(--red)}.btn.p{background:var(--red);color:#fff;border-color:var(--red)}.btn.p:hover{background:var(--red2);border-color:var(--red2)}
+.row{display:flex;gap:.6rem;flex-wrap:wrap}
+.sh{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1.25rem}
+h2{font-size:clamp(1.6rem,4vw,2.25rem);letter-spacing:-.03em;font-weight:600}
+.cnt{color:var(--mid)}
+.bar{display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.bar input{flex:1 1 14rem;background:var(--sf);border:1px solid var(--ln);border-radius:999px;padding:.65rem 1.1rem}
+.chip{background:none;border:1px solid var(--ln);border-radius:999px;padding:.55rem 1.1rem;color:var(--mid);cursor:pointer}
+.chip.on{background:var(--red);color:#fff;border-color:var(--red)}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+.card{background:var(--sf);border:1px solid var(--ln);border-radius:var(--r);padding:1rem;display:flex;flex-direction:column;transition:border-color .15s}
+.card:hover{border-color:var(--red)}
+.tile{aspect-ratio:4/3;background:var(--tile);border-radius:12px;display:grid;place-items:center;padding:1rem;cursor:pointer}
+.tile img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
+.ph{color:#777;font-weight:600;text-align:center;letter-spacing:-.02em}.th .ph{font-size:.6rem;line-height:1.1}
+.cat{color:var(--mid);font-size:.9rem;margin:1rem 0 .15rem}
+.card h3{font-size:1.4rem;letter-spacing:-.025em;font-weight:600}
+.card p{color:var(--mid);margin:.4rem 0 1rem;flex:1}
+.stat{border-top:1px solid var(--ln);padding-top:.9rem;display:flex;align-items:baseline;gap:.6rem}
+.stat b{font-size:1.9rem;letter-spacing:-.04em;font-weight:600;color:var(--red)}.stat span{color:var(--mid)}
+.stat .pr{margin-left:auto;font-weight:600;font-size:1.3rem;letter-spacing:-.02em}
+.pr.no{color:var(--mid);font-weight:400;font-size:.95rem}
+.pt{font-size:1.6rem;font-weight:600;letter-spacing:-.03em;margin-top:.5rem}
+.tags{color:var(--mid);font-size:.9rem;margin:.5rem 0 1rem}
+.acts{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+.cmp{margin-left:auto;display:flex;gap:.4rem;align-items:center;color:var(--mid);cursor:pointer;font-size:.9rem}
+.cmp input{accent-color:var(--red);width:1rem;height:1rem}
+.none{padding:3rem 0;text-align:center;color:var(--mid)}
+section{padding:4.5rem 0;border-top:1px solid var(--ln)}
+.sh h2::after{content:"";display:block;width:2.5rem;height:3px;background:var(--red);margin-top:.6rem}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:start}
+.about .big{font-size:clamp(1.5rem,3vw,2rem);line-height:1.25;letter-spacing:-.03em;font-weight:500}
+.about p{color:var(--mid);margin-top:1rem}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}
+.nums div{background:var(--sf);border:1px solid var(--ln);border-radius:14px;padding:1rem}
+.nums b{display:block;font-size:2rem;letter-spacing:-.04em;color:var(--red)}.nums span{color:var(--mid);font-size:.9rem}
+details{border-bottom:1px solid var(--ln);padding:1.1rem 0}
+details:first-of-type{border-top:1px solid var(--ln)}
 summary{cursor:pointer;font-weight:500;list-style:none;display:flex;justify-content:space-between;gap:1rem}
-summary::-webkit-details-marker{display:none}
-summary::after{content:"+";color:var(--mid)}
-details[open] summary::after{content:"–"}
-details p{margin-top:.75rem;color:var(--mid)}
-footer{display:flex;justify-content:space-between;gap:2rem;flex-wrap:wrap;padding-top:2.5rem;padding-bottom:3rem;border-top:1px solid var(--line);color:var(--mid);font-size:.95rem}
-footer strong{color:var(--ink)}
-footer nav{display:flex;gap:1.25rem}
+summary::-webkit-details-marker{display:none}summary::after{content:"+";color:var(--mid)}
+details[open] summary::after{content:"–";color:var(--red)}details p{color:var(--mid);margin-top:.7rem;max-width:70ch}
+.cta{text-align:center}.cta h2{font-size:clamp(2rem,6vw,3.5rem);margin:.5rem 0 1.75rem}.cta .row{justify-content:center}
+footer{border-top:1px solid var(--ln);padding:2rem 0 5rem;color:var(--mid)}
+footer .w{display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+footer nav{gap:1.25rem}
+#tray{position:fixed;left:50%;bottom:1rem;transform:translate(-50%,150%);transition:transform .25s;background:var(--red);color:#fff;border-radius:999px;padding:.5rem .6rem .5rem 1.25rem;display:flex;align-items:center;gap:1rem;z-index:15;box-shadow:0 8px 30px rgba(229,32,46,.35)}
+#tray.show{transform:translate(-50%,0)}
+#tray button{border-radius:999px;border:0;padding:.5rem 1.1rem;cursor:pointer;background:#000;color:#fff}
+#tray .x{background:none;color:rgba(255,255,255,.8)}
+dialog{margin:auto;max-width:min(920px,94vw);width:100%;max-height:92vh;overflow:auto;background:var(--sf);color:var(--tx);border:1px solid var(--ln);border-radius:22px;padding:1.5rem}
+dialog::backdrop{background:rgba(0,0,0,.75)}
+.xb{float:right;background:var(--sf2);border:1px solid var(--ln);border-radius:50%;width:2.2rem;height:2.2rem;cursor:pointer}
+.dg{display:grid;grid-template-columns:1fr 1fr;gap:2rem;clear:both}
+.th{display:flex;gap:.5rem;margin-top:.5rem}
+.th button{width:4rem;aspect-ratio:1;background:var(--tile);border:2px solid transparent;border-radius:10px;padding:.3rem;cursor:pointer;opacity:.6}
+.th button.on{opacity:1;border-color:var(--red)}.th img{width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+dl{margin:1.25rem 0}dl div{display:flex;justify-content:space-between;gap:1rem;padding:.6rem 0;border-bottom:1px solid var(--ln)}
+dt{color:var(--mid)}dd{text-align:right}
+table{width:100%;border-collapse:collapse;margin-top:1rem}
+th,td{text-align:left;padding:.75rem .5rem;border-bottom:1px solid var(--ln);vertical-align:top}th{color:var(--mid);font-weight:400;width:7rem}
 @media(max-width:760px){
- .hero{padding:4.5rem 0 3.5rem}
- .product,.text{grid-template-columns:1fr;gap:1.5rem}
- .text h2{grid-row:auto}.text>*:not(h2){grid-column:1}
- .bar nav{gap:1rem}
+ .grid,.about,.dg{grid-template-columns:1fr}.about{gap:1.5rem}
+ #mb{display:block}
+ nav#nv{display:none;position:absolute;top:3.75rem;left:0;right:0;flex-direction:column;gap:0;background:var(--bg);border-bottom:1px solid var(--ln);padding:.5rem 1.25rem}
+ nav#nv.open{display:flex}nav#nv a{padding:.8rem 0;border-bottom:1px solid var(--ln)}
+ .hero{padding:4.5rem 0 3rem}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
-
 </style>
 </head>
 <body>
-<header class="bar">
-  <a class="brand" href="#top">Solisgears</a>
-  <nav><a href="#products">Products</a><a href="#about">About</a><a href="#faqs">FAQs</a></nav>
-</header>
+<header><div class="w">
+  <a class="logo" href="#top">Solis<span class="rd">Gears</span></a>
+  <nav id="nv"><a href="#products">Products</a><a href="#about">About</a><a href="#faqs">FAQs</a></nav>
+  <button id="mb" aria-expanded="false">Menu +</button>
+</div></header>
 
 <main id="top">
-  <section class="hero">
+<div class="w">
+  <div class="hero">
+    <div class="wm">Solis<span class="rd">Gears</span></div>
     <h1>Uncompromising<br>audio gears.</h1>
-    <p>In-ear monitors and headphones, selected for sound first. Based in the Philippines.</p>
-  </section>
+    <p>In-ear monitors and headphones picked for sound first. Based in the Philippines.</p>
+    <div class="row"><a class="btn p" href="#products">View products</a><a class="btn" href="#faqs">Read FAQs</a></div>
+  </div>
+</div>
 
-  <section id="products">
-    <h2 class="group">In-Ear Monitors</h2>
+<section id="products"><div class="w">
+  <div class="sh"><h2>Selected products</h2><span class="cnt" id="cnt"></span></div>
+  <div class="bar">
+    <input id="q" type="search" placeholder="Search by name, brand or driver" aria-label="Search products">
+    <button class="chip on" data-f="all">All</button>
+    <button class="chip" data-f="IEM">In-ear</button>
+    <button class="chip" data-f="Headphones">Over-ear</button>
+  </div>
+  <div class="grid" id="grid"></div>
+  <p class="none" id="none" hidden>No products match your search.</p>
+</div></section>
 
-    <article class="product">
-      <div class="gallery" data-gallery>
-        <div class="stage"><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/ew3001.webp" alt="SIMGOT EW300"></div>
-        <div class="thumbs">
-          <button class="on"><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/ew3001.webp" alt="EW300 view 1"></button>
-          <button><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/ew300hbb3-1.webp" alt="EW300 view 2"></button>
-          <button><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/ew300dsp-1.webp" alt="EW300 view 3"></button>
-        </div>
-      </div>
-      <div class="info">
-        <h3>SIMGOT EW300</h3>
-        <p class="spec">1DD + 1 Planar + 1 PZT tribrid</p>
-        <p>A tribrid setup at a low price, with a tuning system, detachable nozzles for different sound options, and an ergonomic design for both audiophiles and gamers.</p>
-        <a class="btn" href="https://solisgears.wordpress.com/main/">Order now</a>
-      </div>
-    </article>
-
-    <article class="product">
-      <div class="gallery" data-gallery>
-        <div class="stage"><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/astral2-1.webp" alt="Kiwi Ears Astral"></div>
-        <div class="thumbs">
-          <button class="on"><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/astral2-1.webp" alt="Astral view 1"></button>
-          <button><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/astral-1.webp" alt="Astral view 2"></button>
-          <button><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/astral3-1.webp" alt="Astral view 3"></button>
-        </div>
-      </div>
-      <div class="info">
-        <h3>Kiwi Ears Astral</h3>
-        <p class="spec">1DD + 6BA hybrid</p>
-        <p>A 10mm bioceramic dynamic driver with six balanced armature drivers. Controlled sub-bass flows into a clear midrange and refined treble for studio-grade balance.</p>
-        <a class="btn" href="https://solisgears.wordpress.com/astral-3/">Order now</a>
-      </div>
-    </article>
-
-    <article class="product">
-      <div class="gallery" data-gallery>
-        <div class="stage"><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/tea4.webp" alt="XENNS Mangird Tea Pro 2024"></div>
-        <div class="thumbs">
-          <button class="on"><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/tea4.webp" alt="Tea Pro view 1"></button>
-          <button><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/tea2.webp" alt="Tea Pro view 2"></button>
-          <button><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/tea.webp" alt="Tea Pro view 3"></button>
-        </div>
-      </div>
-      <div class="info">
-        <h3>XENNS Mangird Tea Pro 2024</h3>
-        <p class="spec">2DD + 6BA hybrid</p>
-        <p>Custom dual dynamic drivers and upgraded Knowles balanced armatures deliver deeper sub-bass, more textured mids and cleaner treble. Medical-grade resin faceplate on an aluminum alloy shell, handcrafted and individually tested for stereo balance.</p>
-        <a class="btn" href="https://solisgears.wordpress.com/xenns/">Order now</a>
-      </div>
-    </article>
-
-    <h2 class="group">Over-Ear Headphones</h2>
-
-    <article class="product">
-      <div class="gallery" data-gallery>
-        <div class="stage"><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/ep53.webp" alt="SIMGOT EP5"></div>
-        <div class="thumbs">
-          <button class="on"><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/ep53.webp" alt="EP5 view 1"></button>
-          <button><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/ep52.webp" alt="EP5 view 2"></button>
-          <button><img src="https://solisgears.wordpress.com/wp-content/uploads/2026/09/ep5.webp" alt="EP5 view 3"></button>
-        </div>
-      </div>
-      <div class="info">
-        <h3>SIMGOT EP5</h3>
-        <p class="spec">50mm ultra-magnetic wideband dynamic driver</p>
-        <p>Powerful, accurate sound with studio-grade clarity, low-impedance drivability and comfortable ergonomics. Optional 7.1 surround support for gaming.</p>
-        <a class="btn" href="https://solisgears.wordpress.com/simgot/">Order now</a>
-      </div>
-    </article>
-  </section>
-
-  <section id="about" class="text">
-    <h2>About</h2>
-    <p class="lead">Precision hardware for peak performance.</p>
+<section id="about"><div class="w about">
+  <div>
+    <p class="big">Precision hardware for peak performance.</p>
     <p>Solisgears is dedicated to the intersection of high-fidelity audio and competitive gaming. From fine-tuning IEMs for the perfect soundstage to optimizing hardware for zero-latency gameplay, this is a space for enthusiasts who demand the absolute best from their tech.</p>
-    <p class="lead">Customize. Optimize. Dominate.</p>
-  </section>
+    <p class="big" style="margin-top:1.5rem">Customize. Optimize. Dominate.</p>
+  </div>
+  <div class="nums" id="nums"></div>
+</div></section>
 
-  <section id="faqs" class="text">
-    <h2>FAQs</h2>
-    <details><summary>What is an In-Ear Monitor (IEM)?</summary><p>IEMs are professional-grade earphones that insert directly into the ear canal to create an acoustic seal. Unlike standard earbuds that simply rest outside the ear, this tight seal provides superior passive noise isolation and highly accurate sound reproduction.</p></details>
-    <details><summary>How do I properly wear IEMs?</summary><p>Most IEMs use an over-ear cable routing design. Route the cable up and behind your ear so the built-in ear hook rests naturally. Then gently pull the earpiece forward and insert the nozzle into your ear canal with a slight twisting motion for a secure fit.</p></details>
-    <details><summary>Why is finding the right ear tip so important?</summary><p>The acoustic seal is critical for proper sound delivery. Without a tight fit, bass collapses and sounds thin and weak, and external noise leaks in. Try different sizes of the included silicone or foam tips to find the best seal for your ear canal.</p></details>
-    <details><summary>Do I need an external DAC or amplifier?</summary><p>Most modern IEMs are efficient and can be driven directly from a phone, PC or laptop using a 3.5mm jack or a simple USB-C dongle. A dedicated DAC/amp can reduce background noise and refine dynamics, but it is not required for everyday listening.</p></details>
-    <details><summary>Are the cables replaceable?</summary><p>Yes. Most enthusiast IEMs have detachable cables, typically with a standard 2-pin connector, so you can replace a damaged cable or upgrade to another material such as silver or copper without replacing the earpieces.</p></details>
-    <details><summary>How should I maintain my IEMs?</summary><p>Regularly clean the ear tips and keep the nozzles free of earwax. Store your IEMs in a hard case when not in use, and avoid wearing them right after a shower so moisture doesn't damage the internal drivers.</p></details>
-  </section>
+<section id="faqs"><div class="w">
+  <div class="sh"><h2>FAQs</h2></div>
+  <div class="bar"><input id="fq" type="search" placeholder="Search questions" aria-label="Search FAQs"></div>
+  <div id="fl"></div>
+  <p class="none" id="fn" hidden>No questions match your search.</p>
+</div></section>
+
+<section class="cta"><div class="w">
+  <span class="cnt">Not sure where to start?</span>
+  <h2>Find your sound.</h2>
+  <div class="row"><a class="btn p" href="#products">Browse products</a></div>
+</div></section>
 </main>
 
-<footer>
-  <div><strong>Solisgears Philippines</strong><br>Uncompromising audio gears.</div>
-  <nav>
-    <a href="#">Twitter</a><a href="#">Facebook</a><a href="#">Instagram</a>
-  </nav>
-</footer>
-<script>
-document.querySelectorAll('[data-gallery]').forEach(function (g) {
-  var stage = g.querySelector('.stage img');
-  var btns = g.querySelectorAll('.thumbs button');
-  btns.forEach(function (b) {
-    b.addEventListener('click', function () {
-      var img = b.querySelector('img');
-      stage.src = img.src;
-      stage.alt = img.alt;
-      btns.forEach(function (x) { x.classList.remove('on'); });
-      b.classList.add('on');
-    });
-  });
-});
+<footer><div class="w">
+  <span>© 2026 Solisgears Philippines</span>
+  <span>Uncompromising audio gears.</span>
+</div></footer>
 
+<div id="tray"><span id="tn"></span><button id="tg">Compare</button><button class="x" id="tc">Clear</button></div>
+<dialog id="dl"></dialog>
+
+<script>
+var IMG="https://solisgears.wordpress.com/wp-content/uploads/2026/09/";
+/* Order links go to the Game One PH store on Lazada. To use an exact product page, replace the order value for that product with its full Lazada link. */
+var STORE="https://www.lazada.com.ph/shop/game-one-ph/?q=";
+/* Prices are in pesos. Add price:1234 to any product to show its price tag. */
+var P=[
+ {id:"ew300",price:4490,cat:"IEM",brand:"SIMGOT",name:"EW300",stat:"3",unit:"drivers",tags:"Tribrid · Planar · PZT",
+  desc:"A tribrid setup at a low price, with a tuning system and detachable nozzles for different sound options.",
+  long:"The SIMGOT EW300 pairs a dynamic driver, a planar driver and a piezoelectric driver for a balanced, immersive sound. A tuning system, detachable nozzles and an ergonomic design make it a fit for both audiophiles and gamers.",
+  specs:{Type:"In-ear monitor",Drivers:"1DD + 1 Planar + 1 PZT",Features:"Tuning system, detachable nozzles"},
+  imgs:["ew3001","ew300hbb3-1","ew300dsp-1"],order:STORE+encodeURIComponent("SIMGOT EW300")},
+ {id:"astral",cat:"IEM",brand:"Kiwi Ears",name:"Astral",stat:"7",unit:"drivers",tags:"Hybrid · Bioceramic · BA",
+  desc:"A 10mm bioceramic dynamic driver with six balanced armatures for studio-grade balance.",
+  long:"Kiwi Ears Astral combines a 10mm bioceramic dynamic driver with six balanced armature drivers. Controlled sub-bass merges smoothly into a clear midrange and refined treble, so every detail is faithfully reproduced.",
+  specs:{Type:"In-ear monitor",Drivers:"1DD (10mm bioceramic) + 6BA",Features:"Studio-grade balance"},
+  imgs:["astral2-1","astral-1","astral3-1"],order:STORE+encodeURIComponent("Kiwi Ears Astral")},
+ {id:"tea",cat:"IEM",brand:"XENNS Mangird",name:"Tea Pro 2024",stat:"8",unit:"drivers",tags:"Hybrid · Knowles BA",
+  desc:"Dual dynamic drivers and upgraded Knowles armatures, tuned for precision.",
+  long:"The XENNS Mangird Tea Pro builds on its predecessors with custom dual dynamic drivers and upgraded Knowles balanced armatures. It delivers deeper sub-bass, more textured mids and cleaner, more extended treble. Each unit is handcrafted and individually tested for accurate stereo balance.",
+  specs:{Type:"In-ear monitor",Drivers:"2DD + 6BA",Features:"Medical-grade resin faceplate, aluminum alloy shell"},
+  imgs:["tea4","tea2","tea"],order:STORE+encodeURIComponent("Mangird Tea Pro")},
+ {id:"ep5",cat:"Headphones",brand:"SIMGOT",name:"EP5",stat:"50mm",unit:"driver",tags:"Over-ear · Wideband · 7.1",
+  desc:"A 50mm ultra-magnetic wideband driver for studio-grade clarity, music and gaming.",
+  long:"The SIMGOT EP5 delivers powerful, accurate sound with a 50mm driver and finely tuned acoustics. It offers studio-grade clarity, low-impedance drivability, comfortable ergonomics and optional 7.1 surround support.",
+  specs:{Type:"Over-ear headphones",Drivers:"50mm ultra-magnetic wideband dynamic",Features:"Low impedance, optional 7.1 surround"},
+  imgs:["ep53","ep52","ep5"],order:STORE+encodeURIComponent("SIMGOT EP5")}
+];
+var F=[
+ ["What is an In-Ear Monitor (IEM)?","IEMs are professional-grade earphones that insert directly into the ear canal to create an acoustic seal. Unlike standard earbuds that simply rest outside the ear, this tight seal provides superior passive noise isolation and highly accurate sound reproduction."],
+ ["How do I properly wear IEMs?","Most IEMs use an over-ear cable routing design. Route the cable up and behind your ear so the built-in ear hook rests naturally. Then gently pull the earpiece forward and insert the nozzle into your ear canal with a slight twisting motion for a secure fit."],
+ ["Why is finding the right ear tip so important?","The acoustic seal is critical for proper sound delivery. Without a tight fit, bass collapses and sounds thin and weak, and external noise leaks in. Try different sizes of the included silicone or foam tips to find the best seal for your ear canal."],
+ ["Do I need an external DAC or amplifier?","Most modern IEMs are efficient and can be driven directly from a phone, PC or laptop using a 3.5mm jack or a simple USB-C dongle. A dedicated DAC/amp can reduce background noise and refine dynamics, but it is not required for everyday listening."],
+ ["Are the cables replaceable?","Yes. Most enthusiast IEMs have detachable cables, typically with a standard 2-pin connector, so you can replace a damaged cable or upgrade to another material such as silver or copper without replacing the earpieces."],
+ ["How should I maintain my IEMs?","Regularly clean the ear tips and keep the nozzles free of earwax. Store your IEMs in a hard case when not in use, and avoid wearing them right after a shower so moisture doesn't damage the internal drivers."]
+];
+var $=function(s){return document.querySelector(s)},sel=[],filt="all";
+function pr(p){return p.price?"₱"+p.price.toLocaleString("en-PH"):""}
+function im(n,a){return '<img src="images/'+n+'.webp" data-r="'+IMG+n+'.webp" alt="'+a+'" referrerpolicy="no-referrer" onerror="fb(this)">'}
+function fb(e){if(!e.dataset.t){e.dataset.t=1;e.src=e.dataset.r}else{var s=document.createElement("span");s.className="ph";s.textContent=e.alt;e.replaceWith(s)}}
+
+function render(){
+  var t=$("#q").value.toLowerCase(),g=$("#grid"),n=0;g.innerHTML="";
+  P.forEach(function(p){
+    if(filt!=="all"&&p.cat!==filt)return;
+    if((p.brand+" "+p.name+" "+p.tags+" "+p.specs.Drivers).toLowerCase().indexOf(t)<0)return;
+    n++;var c=document.createElement("article");c.className="card";
+    c.innerHTML='<div class="tile" data-o="'+p.id+'">'+im(p.imgs[0],p.brand+" "+p.name)+'</div>'+
+    '<div class="cat">'+(p.cat==="IEM"?"In-ear monitor":"Over-ear headphones")+' · '+p.brand+'</div><h3>'+p.name+'</h3><p>'+p.desc+'</p>'+
+    '<div class="stat"><b>'+p.stat+'</b><span>'+p.unit+'</span>'+(p.price?'<span class="pr">'+pr(p)+'</span>':'<span class="pr no">See store price</span>')+'</div><div class="tags">'+p.tags+'</div>'+
+    '<div class="acts"><button class="btn" data-o="'+p.id+'">Details</button><a class="btn p" href="'+p.order+'" target="_blank" rel="noopener">Order now</a>'+
+    '<label class="cmp"><input type="checkbox" data-c="'+p.id+'"'+(sel.indexOf(p.id)>-1?" checked":"")+'>Compare</label></div>';
+    g.appendChild(c);
+  });
+  $("#none").hidden=n>0;$("#cnt").textContent=n+(n===1?" product":" products");
+}
+function tray(){var s=sel.length;$("#tray").classList.toggle("show",s>0);$("#tn").textContent=s+" selected";$("#tg").disabled=s<2;$("#tg").style.opacity=s<2?.4:1}
+function find(id){return P.filter(function(p){return p.id===id})[0]}
+function open(id){
+  var p=find(id),d=$("#dl");
+  d.innerHTML='<button class="xb" aria-label="Close">✕</button><div class="dg"><div><div class="tile" id="mt" style="cursor:default">'+im(p.imgs[0],p.name)+'</div><div class="th">'+
+  p.imgs.map(function(i,k){return '<button class="'+(k?"":"on")+'" data-i="'+i+'" data-a="'+p.name+'">'+im(i,"View "+(k+1))+'</button>'}).join("")+'</div></div>'+
+  '<div><div class="cat" style="margin-top:0">'+p.brand+'</div><h2>'+p.name+'</h2><div class="pt">'+(pr(p)||'<span style="color:var(--mid);font-size:1rem;font-weight:400">See store price</span>')+'</div><p style="color:var(--mid);margin-top:.75rem">'+p.long+'</p><dl>'+
+  Object.keys(p.specs).map(function(k){return '<div><dt>'+k+'</dt><dd>'+p.specs[k]+'</dd></div>'}).join("")+'</dl><div class="row"><a class="btn p" href="'+p.order+'" target="_blank" rel="noopener">Order now</a></div></div></div>';
+  d.showModal();
+}
+function compare(){
+  var d=$("#dl"),ps=sel.map(find),keys=["Type","Drivers","Features"];
+  d.innerHTML='<button class="xb" aria-label="Close">✕</button><h2>Compare</h2><table><tr><th></th>'+ps.map(function(p){return '<td><b>'+p.brand+' '+p.name+'</b></td>'}).join("")+'</tr>'+
+  keys.map(function(k){return '<tr><th>'+k+'</th>'+ps.map(function(p){return '<td>'+(p.specs[k]||"–")+'</td>'}).join("")+'</tr>'}).join("")+
+  '<tr><th>Price</th>'+ps.map(function(p){return '<td>'+(pr(p)||'–')+'</td>'}).join("")+'</tr><tr><th></th>'+ps.map(function(p){return '<td><a class="btn p" href="'+p.order+'" target="_blank" rel="noopener">Order now</a></td>'}).join("")+'</tr></table>';
+  d.showModal();
+}
+function faqs(){
+  var t=$("#fq").value.toLowerCase(),h="",n=0;
+  F.forEach(function(f){if((f[0]+f[1]).toLowerCase().indexOf(t)<0)return;n++;h+='<details><summary>'+f[0]+'</summary><p>'+f[1]+'</p></details>'});
+  $("#fl").innerHTML=h;$("#fn").hidden=n>0;
+}
+function init(){
+  var brands={};P.forEach(function(p){brands[p.brand]=1});
+  $("#nums").innerHTML=[[P.length,"products"],[Object.keys(brands).length,"brands"],[2,"categories"]].map(function(a){return '<div><b>'+a[0]+'</b><span>'+a[1]+'</span></div>'}).join("");
+  render();faqs();
+}
+$("#q").addEventListener("input",render);$("#fq").addEventListener("input",faqs);
+document.querySelectorAll(".chip").forEach(function(b){b.addEventListener("click",function(){
+  document.querySelectorAll(".chip").forEach(function(x){x.classList.remove("on")});b.classList.add("on");filt=b.dataset.f;render()})});
+$("#grid").addEventListener("click",function(e){var o=e.target.closest("[data-o]");if(o)open(o.dataset.o)});
+$("#grid").addEventListener("change",function(e){
+  var id=e.target.dataset.c;if(!id)return;
+  if(e.target.checked){if(sel.length>=3){e.target.checked=false;return}sel.push(id)}else sel=sel.filter(function(x){return x!==id});
+  tray();
+});
+$("#tg").addEventListener("click",compare);
+$("#tc").addEventListener("click",function(){sel=[];tray();render()});
+$("#dl").addEventListener("click",function(e){
+  if(e.target===this||e.target.classList.contains("xb"))this.close();
+  var b=e.target.closest("[data-i]");if(b){$("#mt").innerHTML=im(b.dataset.i,b.dataset.a);this.querySelectorAll(".th button").forEach(function(x){x.classList.remove("on")});b.classList.add("on")}
+});
+$("#mb").addEventListener("click",function(){var o=$("#nv").classList.toggle("open");this.setAttribute("aria-expanded",o);this.textContent=o?"Close –":"Menu +"});
+$("#nv").addEventListener("click",function(e){if(e.target.tagName==="A"){this.classList.remove("open");$("#mb").textContent="Menu +"}});
+init();
 </script>
 </body>
 </html>
